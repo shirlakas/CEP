@@ -1,0 +1,13 @@
+<connector xmlns="http://wbe.ibm.com/6.2/Event/TriageScore" version="6.2" name="RTLS">
+  <connector-bundle name="TriageScore" type="Event">
+    <TriageScoreObject>
+      <Patient_ID type="String">Pa123456</Patient_ID>
+      <Provide_ID type="String">Nurse1111</Provide_ID>
+      <CTAS type="String">2</CTAS>
+      <timestamp type="DateTime">2012-06-21T01:00:46</timestamp>
+    </TriageScoreObject>
+  </connector-bundle>
+  <system>WIN-U8BMQ67RW9Y</system>
+  <timestamp>2012-06-21T01:00:46</timestamp>
+  <loginfo>Test values from WebSphere Business Events:Design Data</loginfo>
+</connector>

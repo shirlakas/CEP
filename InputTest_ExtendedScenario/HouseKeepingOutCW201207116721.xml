@@ -1,0 +1,12 @@
+<connector xmlns="http://wbe.ibm.com/6.2/Event/HouseKeepingOutCW" version="6.2" name="RTLS">
+  <connector-bundle name="HouseKeepingOutCW" type="Event">
+    <HouseKeepingOutCWObject>
+      <HouseKeeping_ID type="String">HK444444</HouseKeeping_ID>
+      <Location_ID type="String">Bed207</Location_ID>
+      <timestamp type="DateTime">2012-07-11T14:10:25</timestamp>
+    </HouseKeepingOutCWObject>
+  </connector-bundle>
+  <system>WIN-U8BMQ67RW9Y</system>
+  <timestamp>2012-07-11T14:10:25</timestamp>
+  <loginfo>Test values from WebSphere Business Events:Design Data</loginfo>
+</connector>
